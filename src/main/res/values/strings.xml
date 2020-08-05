@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HealthCareSpecializer</string>
+    <string name="check_the_location_of_the_pain">Check the location of the pain:</string>
+    <string name="male">Male</string>
+    <string name="severity">Severity</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="medical_history_previous_illnesses">Medical History (previous illnesses)</string>
+    <string name="next">NEXT</string>
+    <string name="shoulder">Shoulder</string>
+    <string name="neck">Neck</string>
+    <string name="throat">Throat</string>
+    <string name="head">Head</string>
+    <string name="arm">Arm</string>
+    <string name="chest">Chest</string>
+    <string name="back">Back</string>
+    <string name="abdomen">Abdomen</string>
+    <string name="pelvis">Pelvis</string>
+    <string name="hips">Hips</string>
+    <string name="legs">Legs</string>
+</resources>

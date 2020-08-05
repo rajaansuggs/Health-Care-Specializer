@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="233dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginRight="89dp"
+        android:layout_marginBottom="88dp"
+        android:background="#009688"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="206dp"
+        android:layout_marginRight="206dp"
+        android:layout_marginBottom="23dp"
+        android:text="@string/check_the_location_of_the_pain"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="329dp"
+        android:layout_height="351dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/head" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/throat" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/neck" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shoulder" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arm" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chest" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/abdomen" />
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pelvis" />
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hips" />
+
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/legs" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
